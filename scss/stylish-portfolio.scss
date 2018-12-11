@@ -1,0 +1,28 @@
+@import "variables";
+@import "mixins";
+@import "global";
+@import "masthead";
+@import "sidebar";
+@import "services";
+@import "callout";
+@import "portfolio";
+@import "footer";
+@import "bootstrap-overrides";
+
+
+// custom.scss
+// Option A: Include all of Bootstrap
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$primary: #DFEBF9 !important;
+$secondary: #7D6F86 !important;
+$body-color: #DFEBF9 !important;
+$bg-light: #DFEBF9 !important;
+
+// Colors
+// Light Cornflower Blue: #94CFF1
+// WinterGreen Dream #538083
+// Sage: #B6BA84
+// Azuereish White #DFEBF9
+// Old Lavender #7D6F86
